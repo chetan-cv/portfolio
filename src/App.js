@@ -40,7 +40,7 @@ const Home = ()=>{
         <div className="About-content">
           <p><span style={{ fontSize: '30px' }}>Hey! Chetan this side. </span> <br />I am a motivated and hardworking developer who thrives on challenge and sees failure not as evidence of unintelligence but as an opportunity to grow and learn more.</p>
         </div>
-        <img src="https://i.pinimg.com/originals/54/5d/c7/545dc70147b6b8a300d33ef5cc51ca5a.jpg" height="50%" width="50%" />
+        <img alt='t' src="https://i.pinimg.com/originals/54/5d/c7/545dc70147b6b8a300d33ef5cc51ca5a.jpg" height="50%" width="50%" />
       </div>
 
       <div className="mainTiles">
@@ -63,9 +63,9 @@ const Home = ()=>{
         <p>To connect:</p>
         <div>
         <a href="https://github.com/chetan-cv">
-          <img src={github} />
+          <img alt='t' src={github} />
           </a>
-          <a href="https://twitter.com/_chetanverma"><img src={twt} />
+          <a href="https://twitter.com/_chetanverma"><img alt='t'src={twt} />
           </a>
           
         </div>

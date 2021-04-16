@@ -1,7 +1,5 @@
 import React from 'react';
-import twt from './twt.svg';
-import github from './github.png';
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {

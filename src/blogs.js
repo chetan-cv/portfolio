@@ -1,7 +1,7 @@
 import React from 'react';
 import twt from './twt.svg';
 import github from './github.png';
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Blogs = () => {
@@ -34,9 +34,9 @@ const Blogs = () => {
         <p>To connect:</p>
         <div>
         <a href="https://github.com/chetan-cv">
-          <img src={github} />
+          <img alt='t'src={github} />
           </a>
-          <a href="https://twitter.com/_chetanverma"><img src={twt} />
+          <a href="https://twitter.com/_chetanverma"><img alt='t'src={twt} />
           </a>
           
         </div>
