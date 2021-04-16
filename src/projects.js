@@ -19,6 +19,11 @@ const Projects = () => {
         </div>
       </header>
       <div className="projecTiles">
+      <div className="project">
+            <p className="title">Repl it excercises</p>
+            <p className="content">starting out wth javascript</p>
+            <a href="https://replit.com/@chetanV01/levelZerolc1#index.js?embed=1&output=1" ><button className="project1-btn">View Live</button></a>
+          </div>
           <div className="project">
             <p className="title">Oculus</p>
             <p className="content">An ecommerce platfrom made using Vanilla Js</p>
