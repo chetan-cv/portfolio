@@ -40,7 +40,7 @@ const Projects = () => {
             <p className="title">To-Do</p>
             <p className="content">To Do app using ReactJs and Firebase</p>
             <a href="https://chetan-cv.github.io/To-Do-React"><button className="project1-btn">View Live</button></a>
-            <button className="project1-btn">See Code</button>
+            <a href= "https://github.com/chetan-cv/To-Do-React"><button className="project1-btn">See Code</button></a>
           </div>
           <div className="project">
             <p className="title">MineDenim Project</p>
