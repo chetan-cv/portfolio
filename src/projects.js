@@ -25,6 +25,12 @@ const Projects = () => {
             <a href="https://replit.com/@chetanV01/levelZerolc1#index.js?embed=1&output=1" ><button className="project1-btn">View Live</button></a>
           </div>
           <div className="project">
+            <p className="title">TBC game</p>
+            <p className="content">Play now by answering simple questions</p>
+            <a href="https://replit.com/@chetanV01/TBC-game#index.js?embed=1&output=1" ><button className="project1-btn">Play</button></a>
+          </div>
+        
+          <div className="project">
             <p className="title">Oculus</p>
             <p className="content">An ecommerce platfrom made using Vanilla Js</p>
             <a href="https://vigilant-booth-7258e2.netlify.app/" ><button className="project1-btn">View Live</button></a>
