@@ -1,13 +1,174 @@
-body {
+:root{
+  --mainLetterSpacing: 1.2px;
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+  outline: none;
+  border: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-header{
+  background-color: #252a35;
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 100%;
+}
+
+.App-header-actions >p{
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem 0;
+  text-align: center;
+  letter-spacing: var(--mainLetterSpacing);
+  cursor: pointer;
+  background-color: white;
+}
+.About{
+  display: flex;
+  align-items: center;
+}
+.About-content{
+  margin: 5rem;
+  padding: 5rem;
+  border-radius: 10px;
+  background-color: #252a35;
+  color: white;
+  letter-spacing: var(--mainLetterSpacing);
+  max-width: 50vw;
+  max-height: 20vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.mainTiles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1rem;
+    margin: 2rem 1rem 0px 1rem;
+    max-height: calc(100vh - 62px);
+    max-width: calc(100vw);    
+    padding-bottom: 5rem;
+}
+.technologies{
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+}
+.projects{
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px;
+  text-align: center;
+}
+.blogs{
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  text-align: center;
+}
+.title{
+  font-size: 20px;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainLetterSpacing);
+}
+.content{
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: var(--mainLetterSpacing);
+  padding: 2rem;
+}
+.project-btn{
+  padding: 0.5rem 0.75rem;
+  background-color: #34414e;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.project-btn:hover{
+  background-color: #53677a;
+}
+.blog-btn{
+  padding: 0.5rem 0.75rem;
+  background-color: rgb(54,69,79);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.blog-btn:hover{
+  background-color: #53677a;;
+}
+.footer{
+  background-color: #252a35;
+  text-align: center;
+  color: white;
+  height: 20vh;
+  width: 100%;
+}
+.footer >p{
+  padding: 1rem;
+  font-size: 15px;
+  letter-spacing: var(--mainLetterSpacing);
+}
+.footer > div > a >img{
+  size: 50px;
+  padding: 10px;
+}
+
+.Blog-Content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.Blog-Text{
+  margin: 5rem auto;
+  padding: 5rem;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  color: black;
+  letter-spacing: var(--mainLetterSpacing);
+  max-width: 50vw;
+  max-height: 20vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  float: center;
+}
+.projecTiles{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 3rem ;
+  margin: 2rem 1rem 0px 1rem;
+  max-height: 100vh;
+  max-width: calc(100vw);    
+  padding-bottom: 5rem;
+  
+}
+.project1-btn{
+  padding: 0.5rem 0.75rem;
+  margin: 1rem;
+  background-color: #34414e;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.project{
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
 }
