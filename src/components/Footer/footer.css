@@ -1,0 +1,31 @@
+.footer{
+    background-color: #252a35;
+    text-align: center;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  .footer > p{
+    padding: 1rem;
+    font-size: 15px;
+  }
+  .footer > div >img{
+    padding-top: 1rem;
+    width: 6.5%;
+  }
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.connect:hover > img{
+    opacity: 0.3;
+}
+.connect:hover >img:hover{
+    opacity: 1;
+    cursor: pointer;
+  }

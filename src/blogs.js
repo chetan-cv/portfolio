@@ -1,6 +1,6 @@
 import React from 'react';
-import twt from './twt.svg';
-import github from './github.png';
+import twt from './logo/twt.svg';
+import github from './logo/github.png';
 import { Link } from "react-router-dom";
 
 

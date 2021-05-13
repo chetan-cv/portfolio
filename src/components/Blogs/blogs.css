@@ -1,0 +1,79 @@
+.Blogs{
+    text-align: center;
+    padding-bottom: 5rem;
+    width: 98.9vw;
+}
+.blogsHeading{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 5rem 5rem 1rem;
+    color: #444649;
+}
+.blogs > h4{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 2.5rem;
+    color: #444649;
+}
+  
+.headerBar {
+    background: #444649;
+    height: 4px;
+    margin: 25px 0 75px 0;
+    width: 100px;
+    margin: 0 auto 5rem;
+}
+.BlogsTiles{
+    width: 50vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 3rem; */
+    position: relative;
+}
+.TileImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+.BlogTileContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin: 1rem 0;
+}
+.BlogTileContent > *{
+    margin: 0.5rem 0;
+}
+.blogBar{
+    background: #188db8;
+    float: left;
+}
+.BlogTileContent .title{
+    font-size: 18px;
+    color: #444649;
+    font-weight: bold;
+}
+.BlogTileContent .subTitle{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+}
+.BlogTileContent .desc{
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+    text-align: justify;
+}
+.blogClick:hover {
+    background-color: rgba(233, 233, 233, 0.9);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.BlogTileContent:hover .title{
+    color:#188db8;
+}

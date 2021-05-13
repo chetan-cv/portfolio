@@ -1,0 +1,22 @@
+/* :root{
+  --mainLetterSpacing: 1.2px;
+} */
+
+.App-header{
+    background-color: #252a35;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+  
+  .App-header-actions > *{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 0;
+    text-align: center;
+    cursor: pointer;
+}

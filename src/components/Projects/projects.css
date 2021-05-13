@@ -1,0 +1,122 @@
+.Projects{
+    text-align: center;
+    padding-bottom: 5rem;
+    width: 98.9vw;
+    background-color: rgb(241, 241, 241);
+}
+.projectsHeading{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 5rem 5rem 1rem;
+    color: #444649;
+}
+.Projects > h4{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 2.5rem;
+    color: #444649;
+}
+  
+.headerBar {
+    background: #444649;
+    height: 4px;
+    margin: 25px 0 75px 0;
+    width: 100px;
+    margin: 0 auto 5rem;
+}
+
+.ProjectsTiles{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 3rem;
+    position: relative;
+}
+.TileImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+.textOverlay{
+    background: rgba(233, 233, 233, 0.9);
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    position: relative;
+}
+.textOverlay > *{
+    transform: translateY(-200px);
+    transition: transform 0.5s;
+}
+.textOverlay:hover{
+    opacity: 1;
+}
+.textOverlay:hover > *{
+    transform: translateY(-80px);
+    visibility:visible;
+}
+
+.textOverlay > p {
+    z-index: 1;
+    font-size: 24px;
+    font-weight: bold;
+    visibility: hidden;
+    color: #444649;
+}
+
+.textOverlay > button {
+    transform: translateY(200px);
+    transition: transform 0.5s;
+}
+
+.textOverlay:hover > button{
+    transform: translateY(50px);
+}
+
+.checkOutBtn {
+    border: 2px solid #188db8;
+    background: transparent;
+    color: #444649;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    
+}
+.checkOutBtn:hover {
+    background-color: #188db8;
+    color: white;
+}
+
+.linkBtn{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+     
+      
+}
+.linkBtn > button{
+      margin: 0.5rem; 
+      transform: translateY(80px);
+      visibility: hidden;
+}
+
+ 

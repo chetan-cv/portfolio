@@ -1,0 +1,25 @@
+
+
+.homeBackground{
+    background-color: #daeef5;
+    position: relative;
+   }
+   .homeBackground > img{
+       height:102vh;
+       width:98.7vw;
+   }
+   .homeContent{
+     position: absolute;
+     z-index: 1;
+     padding: 5rem 15rem;
+     font-size: 18px;
+     font-weight:500;
+     margin: auto;
+     background-color: rgb(241, 241, 241);
+     text-align: center;
+     color: black;
+     top: 15rem;
+     left: 25rem;  
+     border-radius: 5px;
+     box-shadow: 10px 8px 8px -5px #5fa8c2;
+}
