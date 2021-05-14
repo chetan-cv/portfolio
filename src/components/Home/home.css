@@ -1,16 +1,23 @@
 
 
 .homeBackground{
-    background-color: #daeef5;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
    }
-   .homeBackground > img{
-       height:102vh;
-       width:98.7vw;
+   .skills{
+       height:98.7vh;
+       width:25vw;
+       /* transform: translateX(400px); */
+   }
+   .intro{
+       height: 102vh;
+       width: 75vw;
+       text-align: center;
+       padding: 15rem 10rem;
+       margin: auto;
    }
    .homeContent{
-     position: absolute;
-     z-index: 1;
      padding: 5rem 15rem;
      font-size: 18px;
      font-weight:500;
@@ -18,8 +25,18 @@
      background-color: rgb(241, 241, 241);
      text-align: center;
      color: black;
-     top: 15rem;
-     left: 25rem;  
      border-radius: 5px;
      box-shadow: 10px 8px 8px -5px #5fa8c2;
+}
+
+.skills{
+    background-color: #0A0A0A;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.skills > div >img {
+    width: 30%;
 }
