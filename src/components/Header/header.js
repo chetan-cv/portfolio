@@ -14,7 +14,7 @@ const Header = () => {
   return (
       <nav className='navbar'>
         <div className='navbar-container container'>
-        <a href="#" className='navbar-logo' onClick={closeMobileMenu}>
+        <a href="#home" className='navbar-logo' onClick={closeMobileMenu}>
               <FaBars className='navbar-icon' />
               Yo
             </a>
