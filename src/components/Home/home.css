@@ -12,13 +12,13 @@
    }
    .intro{
        height: 100%;
-       width: 75vw;
+       width: 75%;
        text-align: center;
-       padding: 15rem 10rem;
+       padding: 20% 10%;
        margin: auto;
    }
    .homeContent{
-     padding: 5rem 15rem;
+     padding: 8% 15%;
      font-size: 18px;
      font-weight:500;
      margin: auto;
@@ -49,15 +49,15 @@
        }
        
        .intro{
-           height: 70vh;
+           height: 70%;
            width: 100%;
            text-align: center;
-           padding: 10rem 10rem;
+           padding: 13% 10%;
            padding-top: 18rem;
            margin: auto;
        }
        .homeContent{
-         padding: 3rem 7rem;
+         padding: 10% 7%;
          font-size: 18px;
          font-weight:500;
          margin: auto;

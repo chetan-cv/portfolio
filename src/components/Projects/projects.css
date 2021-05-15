@@ -79,13 +79,13 @@ article {
     color: #444649;
 }
 
-.textOverlay > button {
-    transform: translateY(200px);
+.textOverlay > div> button {
+    transform: translateY(300px);
     transition: transform 0.5s;
 }
 
-.textOverlay:hover > button{
-    transform: translateY(50px);
+.textOverlay:hover > div >button{
+    transform: translateY(90px);
 }
 
 .checkOutBtn {
@@ -98,25 +98,23 @@ article {
     font-size: 13pt;
     padding: 10px 20px;
     transition: all 0.5s;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 .checkOutBtn:hover {
     background-color: #188db8;
     color: white;
 }
 
+
 .linkBtn{
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
-     
-      
+      align-items: center;   
 }
 .linkBtn > button{
       margin: 0.5rem; 
-      transform: translateY(80px);
-      visibility: hidden;
+      /* transform: translateY(120px); */
 }
+
 
  

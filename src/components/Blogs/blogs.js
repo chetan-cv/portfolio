@@ -17,8 +17,8 @@ const Blogs = (props) => {
             <section className="BlogsTiles">
                 {
                     props.blogs.map((item) => (
-                        <Fade bottom duration={2000}>
-                            <article className='blogClick' key={item.title} onClick={()=> window.open(item.link, "_blank")}>
+                        <Fade  key={item.title} bottom duration={2000}>
+                            <article className='blogClick' onClick={()=> window.open(item.link, "_blank")}>
                                 <div>
                                     <img alt='t' className='TileImg' src={item.image}></img>
                                     <div className='BlogTileContent'>
