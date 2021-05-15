@@ -34,7 +34,14 @@ const Home = () => {
   }
   useEffect(() => {
     fetchData();
+    if(window.innerWidth <=960){
+      showSkills();
+    }
   }, []);
+
+  const showSkills =() => setAdd(true);
+
+  window.addEventListener('resize',showSkills);
 
   return (
     <div className="App" id='home'>

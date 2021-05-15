@@ -5,11 +5,6 @@ import { IoMdClose } from 'react-icons/io';
 
 const Header = () => {
 
-  const linkStyle = {
-    textDecoration: "none",
-    color: 'white'
-  };
-
   const [click, setClick] = useState(false);
 
   const closeMobileMenu = () => setClick(false);
