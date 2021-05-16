@@ -50,7 +50,7 @@ const Home = () => {
 
       <div className="homeBackground">
         <div className='intro'>
-          <div className="homeContent">Hey, I'm <Fade right cascade><span style={{ fontSize: '25px', fontWeight: 'bolder', color: '#13617d' }}>Chetan Verma</span></Fade><br /><br />A full-stack <Fade left cascade><span style={{ fontWeight: '600', color: '#13617d' }}>Developer|Freelancer</span></Fade></div>
+          <div className="homeContent">Hey, I'm <Fade right cascade><span className='homeContentSpan name'>Chetan Verma</span></Fade><br /><br />A full-stack <Fade left cascade><span className='homeContentSpan'>Developer|Freelancer</span></Fade></div>
         </div>
 
         {
@@ -71,6 +71,9 @@ const Home = () => {
 const Skills = () => {
   return (
     <div className='skills'>
+      <div className='skillsHeading'>
+        What I work with:
+      </div>
       <div className='mobile'>
         <Fade left duration={3000}>
           <img alt="T" src={flutterLogo}></img>
