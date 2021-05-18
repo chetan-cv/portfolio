@@ -2,6 +2,7 @@ import './header.css';
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IoMdClose } from 'react-icons/io';
+import CLogo from '../../logo/c_logo.svg';
 
 const Header = () => {
 
@@ -14,10 +15,9 @@ const Header = () => {
   return (
       <nav className='navbar'>
         <div className='navbar-container container'>
-        <a href="#home" className='navbar-logo' onClick={closeMobileMenu}>
-              <FaBars className='navbar-icon' />
-              Yo
-            </a>
+        <img alt='logo' src={CLogo} className='navbar-logo' onClick={closeMobileMenu}>
+              
+            </img>
           <div className='headerIcons' onClick={handleClick}>
             {click ? <IoMdClose size={25}/> : < FaBars size={25}/>}
           </div>
@@ -33,6 +33,9 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <a onClick={closeMobileMenu}className='nav-links' href='#blogs'>Blogs</a>
+            </li>
+            <li className='nav-item'>
+              <a onClick={closeMobileMenu}className='nav-links' href='#footer'>Connect</a>
             </li>
           </ul>
         </div>
