@@ -6,9 +6,8 @@
 .logoGif{
     text-align: center;
 }
-.logoDiagnol >  .react-player {
-    height: 100%;
-    width: 100%; 
+.logoDiagnol >  .video {
+    
     -webkit-animation: diagonal 2s;
     -moz-animation: diagonal 2s;
     -o-animation: diagonal 2s;
