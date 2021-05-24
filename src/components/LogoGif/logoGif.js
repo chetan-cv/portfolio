@@ -10,7 +10,7 @@ const LogoGif = () =>{
 
     return (
         <div className={activateAnimation ? 'logoDiagnol' : 'logoGif'}>
-             <video className='video' autoPlay muted height='100%' width='100%'>
+             <video className='video' preload='auto' autoPlay muted height='100%' width='100%'>
                  <source src={logoVfx} type='video/mp4' />
              </video>
         </div>
