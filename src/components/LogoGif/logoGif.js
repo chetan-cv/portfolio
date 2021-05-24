@@ -11,7 +11,8 @@ const LogoGif = () =>{
 
     return (
         <div className={activateAnimation ? 'logoDiagnol' : 'logoGif'}>
-             <ReactPlayer className='react-player' playing='false' url={logoVfx} height='100%' width='100%'/>
+             <ReactPlayer className='react-player' playing={true} url={logoVfx} height='100%' width='100%'
+             />
         </div>
     )
 }
