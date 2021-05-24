@@ -65,7 +65,8 @@ const Home = () => {
       <Blogs blogs={blogs} />
       <Footer footer={footer} />
 
-    </div>);
+    </div>
+    );
 }
 
 const Skills = () => {

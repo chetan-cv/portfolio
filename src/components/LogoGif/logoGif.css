@@ -1,0 +1,55 @@
+.logoDiagnol{
+    text-align: center;
+    position:relative;
+   background-color: black;
+}
+.logoGif{
+    text-align: center;
+}
+.logoDiagnol >  .react-player {
+    height: 100%;
+    width: 100%; 
+    -webkit-animation: diagonal 2s;
+    -moz-animation: diagonal 2s;
+    -o-animation: diagonal 2s;
+    animation: diagonal 2s;
+        /* animation-duration: 3s;
+        animation-name: slidein; */
+    }
+    
+    @-webkit-keyframes diagonal {
+        0%       { transform: matrix(1,0,0,1,0,0) }
+        /* 50%      { transform: translatex(20px) translatey(20px); } */
+        100%     { transform: scale(0.1) translatex(-400%) translatey(-5000px) }
+    }
+    
+    @-moz-keyframes diagonal {
+        0%       { transform: matrix(1,0,0,1,0,0) }
+        /* 50%      { transform: translatex(20px) translatey(20px); } */
+        100%     {transform: scale(0.1) translatex(-400%) translatey(-5000px) }
+    }
+    
+    @-o-keyframes diagonal {
+        0%       { transform: matrix(1,0,0,1,0,0) }
+        /* 50%      { transform: translatex(20px) translatey(20px); } */
+        100%     { transform: scale(0.1) translatex(-400%) translatey(-5000px) }
+    }
+    
+    @keyframes diagonal {
+        0%       { transform: matrix(1,0,0,1,0,0) }
+        /* 50%      { transform: translatex(20px) translatey(20px); } */
+        100%     {transform: scale(0.1) translatex(-400%) translatey(-5000px) }
+    }
+
+/* @keyframes slidein {
+    from {
+        margin-left: 0%
+      }
+    
+      to {
+        transform: scale(0.1) translate(-100%, -100%);
+      }
+  } */
+/* .logoGif > img{
+    
+} */
