@@ -44,8 +44,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://chetan-cv.github.io/portfolio",
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "homepage": "http://chetan-cv.github.io/portfolio"
 }
