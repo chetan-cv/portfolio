@@ -8,7 +8,7 @@ function App() {
   setInterval(function(){ setA(true) }, 5200);
   return (
     <div>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route exact path="/" component={ A ? Home : LogoGif} />      
     </Router>
     </div>
