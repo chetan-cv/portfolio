@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d33f193ca13325d25df2",
-    "url": "/portfolio/static/css/main.71d8fa20.chunk.css"
+    "revision": "4cbadae6bc54ed564491",
+    "url": "/portfolio/static/css/main.30a8d706.chunk.css"
   },
   {
-    "revision": "d33f193ca13325d25df2",
-    "url": "/portfolio/static/js/main.80074b4e.chunk.js"
+    "revision": "4cbadae6bc54ed564491",
+    "url": "/portfolio/static/js/main.56c3d748.chunk.js"
   },
   {
     "revision": "2cd4594f8650f7e4082a",
     "url": "/portfolio/static/js/runtime~main.a14f8904.js"
   },
   {
-    "revision": "5fef13c3847c1ae6f209",
-    "url": "/portfolio/static/js/2.6b3837f9.chunk.js"
+    "revision": "b13b72bcbeeb6c9c4c8e",
+    "url": "/portfolio/static/js/2.16941729.chunk.js"
   },
   {
     "revision": "ec86f99e38d92fd4f6f7",
     "url": "/portfolio/static/js/3.3d2374d6.chunk.js"
+  },
+  {
+    "revision": "0f163643a5475ee3c48008a723f66dd2",
+    "url": "/portfolio/static/media/logovfx_v3.0f163643.mp4"
   },
   {
     "revision": "cec56b7ad246bc9d5e8d18c92b80bbe9",
@@ -68,11 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/uiux-removebg-preview.5a4a9b45.png"
   },
   {
-    "revision": "0f163643a5475ee3c48008a723f66dd2",
-    "url": "/portfolio/static/media/logovfx_v3.0f163643.mp4"
-  },
-  {
-    "revision": "bf047e378004764e44c091003d89b4cf",
+    "revision": "5f2bacbe68a41541cec2f392f12cee93",
     "url": "/portfolio/index.html"
   }
 ];
