@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 
 function App() {
   const [A,setA] = useState(false);
-  setInterval(function(){ setA(true) }, 5200);
+  setInterval(function(){ setA(true) }, 5500);
   return (
     <div>
     <Router basename={process.env.PUBLIC_URL}>

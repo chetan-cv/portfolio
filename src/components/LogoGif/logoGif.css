@@ -7,7 +7,6 @@
     text-align: center;
 }
 .logoDiagnol >  .video {
-    
     -webkit-animation: diagonal 2s;
     -moz-animation: diagonal 2s;
     -o-animation: diagonal 2s;
@@ -42,5 +41,5 @@
     }
     .logoDiagnol{
         height: 100vh;
-          }
+    }
 }
