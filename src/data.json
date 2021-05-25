@@ -2,56 +2,56 @@
 {
     "projects" : [
         {
-            "image":"../../assets/oculus.png",
+            "image":"./portfolio/assets/oculus.png",
             "title":"Oculus",
             "viewLink": "https://vigilant-booth-7258e2.netlify.app/",
             "codeLink": "https://github.com/chetan-cv/Oculus/",
             "delay":"0"
         },
         {
-            "image":"../../assets/minedenim.png",
+            "image":"./portfolio/assets/minedenim.png",
             "title":"MineDenim Project",
             "viewLink": "https://play.google.com/store/apps/details?id=minedenim.Minedenim_shop&hl=en_IE/",
             "codeLink": "https://play.google.com/store/apps/details?id=com.minedenim.shopper&hl=en_IE/",
             "delay":"400"
         },
         {
-            "image":"../../assets/toDo.png",
+            "image":"./portfolio/assets/toDo.png",
             "title":"To-Do App",
             "viewLink": "https://chetan-cv.github.io/To-Do-React/",
             "codeLink": "https://github.com/chetan-cv/To-Do-React",
             "delay":"800"
         },
         {
-            "image":"../../assets/Paginated.gif",
+            "image":"./portfolio/assets/Paginated.gif",
             "title":"Paginated Api + App",
             "viewLink": null,
             "codeLink": "https://github.com/chetan-cv/Paginated-Data",
             "delay":"1000"
         },
         {
-            "image":"../../assets/goGreen.png",
+            "image":"./portfolio/assets/goGreen.png",
             "title":"Go Green",
             "viewLink": "https://codesandbox.io/s/magical-morning-lsz5d",
             "codeLink": null,
             "delay":"1200"
         },
         {
-            "image":"../../assets/techola.png",
+            "image":"./portfolio/assets/techola.png",
             "title":"Techola",
             "viewLink": "https://play.google.com/store/apps/details?id=com.kiht.techola&hl=en_IE",
             "codeLink": null,
             "delay":"1300"
         },
         {
-            "image":"../../assets/FQA.png",
+            "image":"./portfolio/assets/FQA.png",
             "title":"FQA- Fun Quiz App",
             "viewLink": "https://replit.com/@chetanV01/FQA-fun-quiz-app#index.js?embed=1&output=1",
             "codeLink": null,
             "delay":"400"
         },
         {
-            "image":"../../assets/gem.png",
+            "image":"./portfolio/assets/gem.png",
             "title":"GemSelections",
             "viewLink": "https://play.google.com/store/apps/details?id=tech.iosd.gemselections&hl=en_IE",
             "codeLink": null,
@@ -60,7 +60,7 @@
     ],
     "blogs":[
         {
-            "image":"../../assets/blog.gif",
+            "image":"./portfolio/assets/blog.gif",
             "title":"Working with Paginated REST API: Flutter and Django.",
             "date":"December 27,2020",
             "desc":"If you are a Flutter developer-facing some troubles with integrating a Paginated REST API or a Django developer confused and want to integrate Pagination in your REST API, then this article is just for you.",
@@ -69,19 +69,19 @@
     ],
     "footer":[
         {
-            "image":"../../assets/github.png",
+            "image":"./portfolio/assets/github.png",
             "link":"https://github.com/chetan-cv"
         },
         {
-            "image":"../../assets/twt.png",
+            "image":"./portfolio/assets/twt.png",
             "link":"https://twitter.com/_chetanverma"
         },
         {
-            "image":"../../assets/Medium.png",
+            "image":"./portfolio/assets/Medium.png",
             "link":"https://chetanverma1.medium.com/"
         },
         {
-            "image":"../../assets/mail.svg",
+            "image":"./portfolio/assets/mail.svg",
             "link":"mailto:chetanverma99.cv@gmail.com"
         }        
     ]
