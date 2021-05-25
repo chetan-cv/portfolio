@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import './logoGif.css';
-import logoVfx from '../../logo/logovfx_v2.mp4';
+import logoVfx from '../../logo/logovfx_v3.mp4';
 
 const LogoGif = () =>{
     const [ activateAnimation, setActivateAnimation] = useState(false);
