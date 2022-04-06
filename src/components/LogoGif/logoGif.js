@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './logoGif.css';
-import logoVfx from '../../logo/logovfx_v3.mp4';
+import logoVfx from '../../logo/logovfx_v4.mp4';
 import Home from '../Home/home';
 
 
