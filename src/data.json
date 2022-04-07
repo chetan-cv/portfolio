@@ -11,8 +11,8 @@
         {
             "image":"../portfolio/assets/minedenim.png",
             "title":"MineDenim Project",
-            "viewLink": "https://play.google.com/store/apps/details?id=minedenim.Minedenim_shop&hl=en_IE/",
-            "codeLink": "https://play.google.com/store/apps/details?id=com.minedenim.shopper&hl=en_IE/",
+            "viewLink": "https://play.google.com/store/apps/details?id=com.ekshunyaek.mineshop",
+            "codeLink": null,
             "delay":"400"
         },
         {
@@ -39,15 +39,15 @@
         {
             "image":"../portfolio/assets/techola.png",
             "title":"Techola",
-            "viewLink": "https://play.google.com/store/apps/details?id=com.kiht.techola&hl=en_IE",
+            "viewLink": "https://play.google.com/store/apps/details?id=com.amtz.techola",
             "codeLink": null,
             "delay":"1300"
         },
         {
-            "image":"../portfolio/assets/FQA.png",
-            "title":"FQA- Fun Quiz App",
-            "viewLink": "https://replit.com/@chetanV01/FQA-fun-quiz-app#index.js?embed=1&output=1",
-            "codeLink": null,
+            "image":"../portfolio/assets/Security_framework.png",
+            "title":"Security Assessment Rating Framework",
+            "viewLink": "https://securityassessment-becd9.web.app/",
+            "codeLink": "https://arxiv.org/abs/2108.06559",
             "delay":"400"
         },
         {

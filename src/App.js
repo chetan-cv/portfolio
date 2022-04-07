@@ -15,5 +15,11 @@ function App() {
 
 export default App;
 
+// change urls
+// change bio
+// add new what I work with
+// add new section in what i do
+// add certifications
+// add something in header logo
 
 

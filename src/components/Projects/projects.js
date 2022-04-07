@@ -26,8 +26,8 @@ const Projects = (props) => {
               } 
               {
                 item.codeLink !=null ?
-                item.title ==='MineDenim Project' ? 
-                <button className='checkOutBtn' onClick={()=> window.open(item.codeLink, "_blank")}>View Live 2</button> :
+                item.title ==='Security Assessment Rating Framework' ? 
+                <button className='checkOutBtn' onClick={()=> window.open(item.codeLink, "_blank")}>View Research</button> :
                  <button className='checkOutBtn' onClick={()=> window.open(item.codeLink, "_blank")}>See Code</button> : null
               }
                </div>
