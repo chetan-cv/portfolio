@@ -50,7 +50,7 @@ const Home = () => {
 
       <div className="homeBackground">
         <div className='intro'>
-          <div className="homeContent">Hey, I'm <Fade right cascade><span className='homeContentSpan name'>Chetan Verma</span></Fade><br /><br />A full-stack <Fade left cascade><span className='homeContentSpan'>Developer|Freelancer</span></Fade></div>
+          <div className="homeContent">Hey, I'm <Fade right cascade><span className='homeContentSpan name'>Chetan Verma</span></Fade><br /><br />A <Fade left cascade><span className='homeContentSpan'>Software Engineer</span></Fade></div>
         </div>
 
         {
