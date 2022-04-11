@@ -16,10 +16,6 @@ function App() {
 
 export default App;
 
-// change bio
-// add diff logos instead of htm and css
-// add certifications
-// add something in header logo
-// increase mitre pic size
+
 
 
