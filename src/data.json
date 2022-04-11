@@ -48,14 +48,14 @@
             "title":"Security Assessment Rating Framework",
             "viewLink": "https://securityassessment-becd9.web.app/",
             "codeLink": "https://arxiv.org/abs/2108.06559",
-            "delay":"400"
+            "delay":"1500"
         },
         {
             "image":"../portfolio/assets/gem.png",
             "title":"GemSelections",
             "viewLink": "https://play.google.com/store/apps/details?id=tech.iosd.gemselections&hl=en_IE",
             "codeLink": null,
-            "delay":"500"
+            "delay":"1600"
         }
     ],
     "blogs":[

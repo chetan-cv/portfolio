@@ -1,11 +1,13 @@
-import flutterLogo from '../../logo/flutterLogo.png';
-import reactLogo from '../../logo/reactLogo.png';
-import htmlLogo from '../../logo/htmlLogo.png';
-import cssLogo from '../../logo/cssLogo.png';
-import pythonLogo from '../../logo/pythonLogo.png';
+import flutterLogo from '../../logo/flutterLogo-removebg-preview.png';
+import reactLogo from '../../logo/reactLogo-removebg-preview.png';
+import htmlLogo from '../../logo/htmlLogo-removebg-preview.png';
+import cssLogo from '../../logo/cssLogo1.png';
+import pythonLogo from '../../logo/pythonLogo-removebg-preview.png';
 import djangoLogo from '../../logo/djangoLogo.png';
-import awsLogo from '../../logo/awsLogo.png';
-import digtialOLogo from '../../logo/digtialOLogo.png';
+import awsLogo from '../../logo/awsLogo-removebg-preview.png';
+import gcpLogo from '../../logo/gcpLogo-removebg-preview.png';
+import kafkaLogo from '../../logo/kafkaLogo-removebg-preview.png';
+import dockerLogo from '../../logo/dockerLogo1.png';
 import './home.css';
 import Header from '../Header/header';
 import About from '../About/about';
@@ -72,41 +74,53 @@ const Home = () => {
 const Skills = () => {
   return (
     <div className='skills'>
-      <div className='skillsHeading'>
+      <section className='skillsHeading'>
         What I work with:
-      </div>
-      <div className='mobile'>
+      </section>
+      <div>
         <Fade left duration={3000}>
+          <img alt="T" src={reactLogo}></img>
+        </Fade>
+        <Fade left duration={3000} delay={200}>
           <img alt="T" src={flutterLogo}></img>
         </Fade>
       </div>
-      <div className='web'>
-        <Fade left duration={3000} delay={600}>
+      <div>
+         <Fade left duration={3000} delay={400}>
             <img alt="T" src={htmlLogo}></img>
         </Fade>
-        <Fade left duration={3000} delay={900}>
+        <Fade left duration={3000} delay={600}>
           <img alt="T" src={cssLogo}></img>
         </Fade>
-        <Fade left duration={3000} delay={1200}>
-          <img alt="T" src={reactLogo}></img>
-        </Fade>
       </div>
-      <div className='backend'>
-        <Fade left duration={3000} delay={1500}>
+        
+      <div>
+        <Fade left duration={3000} delay={700}>
           <img alt="T" src={pythonLogo}></img>
         </Fade>
-        <Fade left duration={3000} delay={1800}>
+        <Fade left duration={3000} delay={900}>
           <img alt="T" src={djangoLogo}></img>
         </Fade>
       </div>
-      <div className='cloud'>
-        <Fade left duration={3000} delay={2100}>
+      <div>
+         <Fade left duration={3000} delay={1100}>
           <img alt="T" src={awsLogo}></img>
         </Fade>
-        <Fade left duration={3000} delay={2400}>
-          <img alt="T" src={digtialOLogo}></img>
+        <Fade left duration={3000} delay={1300}>
+          <img alt="T" src={gcpLogo}></img>
         </Fade>
       </div>
+        
+        <div>
+           <Fade left duration={3000} delay={1500}>
+          <img alt="T" src={kafkaLogo}></img>
+        </Fade>
+        <Fade left duration={3000} delay={1700}>
+          <img alt="T" src={dockerLogo}></img>
+        </Fade>
+        </div>
+       
+       
     </div>
   );
 }
